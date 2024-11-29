@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <DefaultNamespace>Crews.Extensions.Http</DefaultNamespace>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Crews.Extensions.Http</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Tommy Crews</Authors>
+		<Description>
+			Provides extension methods and other utilities for working with HTTP resources.
+		</Description>
+		<PackageProjectUrl>https://github.com/twcrews/http-extensions</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/twcrews/http-extensions.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>HTTP;REST;Web;API;URI;Server;Client;Net;HttpClient</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReleaseNotes>
+			https://github.com/twcrews/http-extensions/blob/master/CHANGELOG.md
+		</PackageReleaseNotes>
+		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Crews.Extensions.Primitives" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>

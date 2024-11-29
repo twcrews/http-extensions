@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Extensions.Http", "Crews.Extensions.Http\Crews.Extensions.Http.csproj", "{F3B70975-874C-4A07-96AE-062D9A024B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Extensions.Http.Tests", "Crews.Extensions.Http.Tests\Crews.Extensions.Http.Tests.csproj", "{27CFEE39-3237-4CE4-8E17-B437C638B090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B70975-874C-4A07-96AE-062D9A024B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B70975-874C-4A07-96AE-062D9A024B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B70975-874C-4A07-96AE-062D9A024B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B70975-874C-4A07-96AE-062D9A024B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CFEE39-3237-4CE4-8E17-B437C638B090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CFEE39-3237-4CE4-8E17-B437C638B090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CFEE39-3237-4CE4-8E17-B437C638B090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CFEE39-3237-4CE4-8E17-B437C638B090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
