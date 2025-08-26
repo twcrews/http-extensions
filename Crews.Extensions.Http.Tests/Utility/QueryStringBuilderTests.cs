@@ -1,5 +1,3 @@
-using Crews.Extensions.Http.Utility;
-
 namespace Crews.Extensions.Http.Tests.Utility;
 
 public class QueryStringBuilderTests

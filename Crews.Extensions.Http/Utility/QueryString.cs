@@ -1,7 +1,7 @@
-﻿using System.Collections.Immutable;
+using System.Collections.Immutable;
 using Crews.Extensions.Primitives;
 
-namespace Crews.Extensions.Http.Utility;
+namespace Crews.Extensions.Http;
 
 /// <summary>
 /// Represents the query string at the end of a URI.
