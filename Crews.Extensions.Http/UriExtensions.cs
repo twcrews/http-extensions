@@ -1,6 +1,4 @@
-﻿using Crews.Extensions.Http.Utility;
-
-namespace Crews.Extensions.Http;
+﻿namespace Crews.Extensions.Http;
 
 /// <summary>
 /// Provides extension methods for <see cref="Uri"/> instances.

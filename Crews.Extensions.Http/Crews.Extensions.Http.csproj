@@ -10,7 +10,7 @@
 
 	<PropertyGroup>
 		<PackageId>Crews.Extensions.Http</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>2.0.0</PackageVersion>
 		<Authors>Tommy Crews</Authors>
 		<Description>
 			Provides extension methods and other utilities for working with HTTP resources.
@@ -33,7 +33,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Crews.Extensions.Primitives" Version="1.0.0" />
+		<PackageReference Include="Crews.Extensions.Primitives" Version="1.1.2" />
 	</ItemGroup>
 
 </Project>

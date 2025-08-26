@@ -1,4 +1,4 @@
-namespace Crews.Extensions.Http.Utility;
+namespace Crews.Extensions.Http;
 
 /// <summary>
 /// A builder class that allows for easy creation and modification of URI query strings.
