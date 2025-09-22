@@ -13,16 +13,8 @@ public class QueryStringBuilderTests
 			ParameterValuesDelimiter = "*(",
 			EndingDelimiter = ")_",
 			Parameters = [
-				new()
-				{
-					Key = "a",
-					Values = ["b"]
-				},
-				new()
-				{
-					Key = "c",
-					Values = ["d", "e"]
-				}
+				new("a", "b"),
+				new("c", "d", "e")
 			]
 		};
 
@@ -41,11 +33,7 @@ public class QueryStringBuilderTests
 			.Select(parameterString => 
 			{
 				string[] parameterStringParts = parameterString.Split('=');
-				return new QueryString.Parameter
-				{
-					Key = parameterStringParts[0],
-					Values = [.. parameterStringParts[1].Split(',')]
-				};
+				return new QueryString.Parameter(parameterStringParts[0], [.. parameterStringParts[1].Split(',')]);
 			});
 
 		QueryStringBuilder builder = new(input);
@@ -64,11 +52,7 @@ public class QueryStringBuilderTests
 			.Select(parameterString => 
 			{
 				string[] parameterStringParts = parameterString.Split('=');
-				return new QueryString.Parameter
-				{
-					Key = parameterStringParts[0],
-					Values = [.. parameterStringParts[1].Split(',')]
-				};
+				return new QueryString.Parameter(parameterStringParts[0], [.. parameterStringParts[1].Split(',')]);
 			});
 
 		QueryStringBuilder builder = new(queryString);

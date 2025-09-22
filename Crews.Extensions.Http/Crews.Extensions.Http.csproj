@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>13.0</LangVersion>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
 	  <DefaultNamespace>Crews.Extensions.Http</DefaultNamespace>
@@ -10,7 +11,7 @@
 
 	<PropertyGroup>
 		<PackageId>Crews.Extensions.Http</PackageId>
-		<PackageVersion>2.0.0</PackageVersion>
+		<PackageVersion>3.0.0</PackageVersion>
 		<Authors>Tommy Crews</Authors>
 		<Description>
 			Provides extension methods and other utilities for working with HTTP resources.
@@ -33,7 +34,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Crews.Extensions.Primitives" Version="1.1.2" />
+		<PackageReference Include="Crews.Extensions.Primitives" Version="1.2.1" />
 	</ItemGroup>
 
 </Project>
